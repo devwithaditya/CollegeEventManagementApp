@@ -15,7 +15,7 @@ const contactRouter = require("./routes/contact.routes")
 app.use(cors({
     origin:[
         "http://localhost:5173",
-        "http://docker-aws-alb-827173914.ap-northeast-1.elb.amazonaws.com/"
+        "https://event-handler-backend.yellowbay-549b6eaf.eastasia.azurecontainerapps.io"
     ],
     credentials:true 
 }))
