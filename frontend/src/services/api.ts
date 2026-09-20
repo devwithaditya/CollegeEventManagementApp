@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: "http://docker-aws-alb-827173914.ap-northeast-1.elb.amazonaws.com/api",
+    baseURL: "https://event-handler-backend.yellowbay-549b6eaf.eastasia.azurecontainerapps.io/api",
     withCredentials: true,
 });
 
